@@ -1,0 +1,17 @@
+ Scanner sc = new  Scanner(System.in);
+        System.out.println("Menu Seç");
+        int menuNo= sc.nextInt();
+        
+        if (menuNo==1) {
+            System.out.println("1. Menu İçeriği");
+        }else if(menuNo==2){
+            System.out.println("2. Menu İçeriği");
+        }else if(menuNo==3){
+            System.out.println("3. Menu İçeriği");
+        }else if(menuNo==4){
+            System.out.println("4. Menu İçeriği");
+        }else if(menuNo==5){
+            System.out.println("5. Menu İçeriği");
+        }else{
+            System.out.println("Menu Seçilmedi");
+        }
